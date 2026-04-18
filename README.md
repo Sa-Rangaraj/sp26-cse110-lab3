@@ -1,3 +1,3 @@
-# Lab 2 - Starter
+# Lab 3
 
-[Meeting Minutes](https://sa-rangaraj.github.io/Lab2/)
+[Github Pages](https://sa-rangaraj.github.io/sp26-cse110-lab3/)
