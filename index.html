@@ -9,6 +9,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="index.css">
   </head>
   <body>
     <header>
@@ -24,7 +25,6 @@
         <li><input type="checkbox" />Mallory</li>
       </ol>
 
-      <hr /> 
 
       <h2>Agenda </h2>
       <nav> 
@@ -37,7 +37,6 @@
         </ol>
       </nav>
 
-      <hr /> 
 
       <section>
         <div> 
@@ -46,7 +45,7 @@
         <h3 id="T1">Really Important Task:</h3>
         <details>
           <summary>Important decision recap</summary>
-          <p>
+          <p class="under">
             A summary of the decisions made this really important task. <br /> 
             A consice explanation of the rational. <br />
             Current predictions regarding how this decision will effectt other parts of the project.
@@ -111,9 +110,8 @@
           </datalist>          
 
           <br />
-          <label for="today">Date::</label>
-          <input type="date" id="today" name="today">
-
+          <label>Date:</label>
+          <input type="date" id="day" value="currentDate">
 
           <br /> 
           <br /> 
